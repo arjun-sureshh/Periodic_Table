@@ -1,0 +1,187 @@
+.container{
+    position: relative;
+    background-color: rgb(225, 219, 218);
+    height: 110vh;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.Elements{
+    border: 1px solid rgb(18, 14, 14);
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    border-radius: 10px; 
+    box-shadow: 0 6px 7px rgba(67, 40, 19, 0.886); /* Add a shadow */
+    
+}
+.table1{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: center;
+}
+.table2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    height: 25vh;
+    margin-bottom: 20px;
+}
+.section1{
+   
+    margin: auto;   
+}
+.section2{
+   
+    font-size:15px;
+    
+}
+
+.items{
+   border: 1px solid black;
+   width: 20px;
+   height: 20px;
+   border-radius: 15px;
+   margin: 2px;
+   
+}
+.row_no{
+    width: 65px;
+    height: 65px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;    
+}
+.group_no{
+    display: flex;
+  justify-content: center;
+}
+.Elements:hover {
+    transform: scale(1.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.items:hover {
+    transform: scale(1.3);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.chart:hover {
+    transform: scale(1.4);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.periodic{
+    font-style: normal;
+    color: rgb(42, 15, 15);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 35%;
+    margin-top:80px;
+
+}
+
+
+.display_elements{
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-left: 32%;
+   margin-top: 70px;
+} 
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.items_name{
+    width: fit-content;
+   height: 20px;
+   margin: 3px;
+}
+.chart-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    
+}
+/* Circle */
+.chart {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(166, 146, 146);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 160%;
+    background: conic-gradient(
+        rgb(134, 79, 186) 0% 11%,    /* Element A: 25% */
+        rgb(199, 158, 96) 11% 20%,   /* Element B: 25% */
+        rgb(238, 199, 140) 20% 29%,   /* Element C: 25% */
+        rgb(213, 247, 146) 29% 55%,   /* Element D: 25% */
+        rgb(239, 239, 97)  55% 66%,
+        rgb(155, 243, 131) 66% 76%,
+        rgb(234, 135, 236) 76% 82%,
+        rgb(125, 194, 215) 82% 88%,
+        rgb(121, 130, 147) 88% 92%,
+        rgb(103, 175, 112) 92% 96%,
+        rgb(168, 217, 112) 96% 100%
+
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.chart-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.nonmetals{
+  background-color: rgb(134, 79, 186);
+}
+.alkali_metals{
+    background-color: rgb(199, 158, 96);
+}
+.alkaline_metals{
+    background-color: rgb(238, 199, 140);
+}
+.transition_metals{
+    background-color: rgb(213, 247, 146);
+}
+.other_metals{
+    background-color: rgb(239, 239, 97);
+}
+.metalloids{
+    background-color: rgb(155, 243, 131);
+}
+.halogens{
+    background-color: rgb(234, 135, 236);
+}
+.noble_gases{
+    background-color: rgb(125, 194, 215);
+}
+.unknown_elements{
+    background-color: rgb(121, 130, 147);
+}
+.actinoids{
+    background-color: rgb(103, 175, 112);
+}
+.lanthanoids{
+    background-color: rgb(168, 217, 112);
+}
+
+
